@@ -1,0 +1,24 @@
+{
+  "name": "magepsycho/magento2-discountlabel",
+  "description": "Product Discount Label",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Raj KB",
+      "email": "info@magepsycho.com",
+      "homepage": "https://www.magepsycho.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "MagePsycho\\DiscountLabel\\": ""
+    }
+  }
+}
