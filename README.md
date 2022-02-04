@@ -7,10 +7,10 @@
 
 <div align="center">
 
-[![Packagist Version](https://img.shields.io/packagist/v/magepsycho/magento2-module-product-discount-label?style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label)
-[![Packagist Version](https://img.shields.io/packagist/dt/magepsycho/magento2-module-product-discount-label.svg?style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label/stats)
+[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-module-product-discount-label?sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-module-product-discount-label.svg?style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label/stats)
 ![Supported Magento Versions](https://img.shields.io/badge/magento-%202.3_|_2.4-brightgreen.svg?logo=magento&longCache=true&style=for-the-badge)
-![License](https://img.shields.io/github/license/magepsycho/magento2-product-discount-label?color=%23234&style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?color=%23234&style=for-the-badge)
 
 </div>
 
