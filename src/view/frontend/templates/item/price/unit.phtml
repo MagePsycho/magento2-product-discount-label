@@ -1,0 +1,40 @@
+<?php
+/**
+ * @category   MagePsycho
+ * @package    MagePsycho_DiscountLabel
+ * @author     Raj KB <magepsycho@gmail.com>
+ * @website    https://www.magepsycho.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var $block \Magento\Checkout\Block\Item\Price\Renderer */
+
+$_item = $block->getItem();
+$originalPrice = $_item->getOriginalPrice() ?: $_item->getProduct()->getPrice();
+?>
+<?php
+if (($originalPrice - $_item->getCalculationPrice()) > 0.9) :
+    $discountPercent = 100 - round(($_item->getCalculationPrice() * 100) / $originalPrice);
+?>
+<span class="price-including-tax" data-label="<?= $block->escapeHtml(__('Discount')) ?>">
+    <span class="cart-price">
+        <span class="price">
+            <?= /* @escapeNotVerified */ $this->helper('Magento\Checkout\Helper\Data')->formatPrice($originalPrice) ?>
+    </span>
+</span>
+<span class="mp-discount-label-wrap">
+    <?= str_replace(
+        '{{discount_percent}}',
+        $discountPercent,
+        $this->helper('MagePsycho\DiscountLabel\Helper\Data')->getConfig()->getCartDisplayFormat()
+    ) ?>
+</span>
+<?php else: ?>
+<span class="price-including-tax" data-label="<?= $block->escapeHtml(__('Excl. Tax')) ?>">
+    <span class="cart-price">
+        <?= /* @escapeNotVerified */ $this->helper('Magento\Checkout\Helper\Data')->formatPrice($_item->getCalculationPrice()) ?>
+    </span>
+</span>
+<?php endif; ?>

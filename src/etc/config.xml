@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MagePsycho
+ * @package    MagePsycho_DiscountLabel
+ * @author     Raj KB <magepsycho@gmail.com>
+ * @website    https://www.magepsycho.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magepsycho_discountlabel>
+            <general>
+                <enabled>1</enabled>
+                <debug>0</debug>
+            </general>
+            <discount>
+                <catalog_format><![CDATA[SAVE {{discount_percent}}%]]></catalog_format>
+                <cart_format><![CDATA[-{{discount_percent}}%]]></cart_format>
+            </discount>
+        </magepsycho_discountlabel>
+    </default>
+</config>
