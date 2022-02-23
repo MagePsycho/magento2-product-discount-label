@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-product-discount-label?sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-discountlabel.svg?style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label/stats)
+[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-product-discount-label?logo=packagist&sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-discountlabel.svg?logo=composer&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-module-product-discount-label/stats)
 ![Supported Magento Versions](https://img.shields.io/badge/magento-%202.3_|_2.4-brightgreen.svg?logo=magento&longCache=true&style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?color=%23234&style=for-the-badge)
 
@@ -39,7 +39,7 @@ Some examples:
 
 *`{{discount_percent}}` will be replaced by discount percent value.*
 
-![M2 Product Discount Label - Admin Settings](https://www.magepsycho.com/media/catalog/product/2/0/20-m2-discount-label-admin-label-settings.png)
+![M2 Product Discount Label - Admin Settings](https://www.magepsycho.com/media/catalog/product/2/0/20-m2-discount-label-admin-label-settings_1.png)
 
 ![M2 Product Discount Label - Product Page](https://www.magepsycho.com/media/catalog/product/5/0/50-m2-discount-label-storefront-samples.png)
 
@@ -74,15 +74,17 @@ php bin/magento setup:static-content:deploy
 * Initial Release.
 
 ## Authors
+- Raj KB [![Twitter Follow](https://img.shields.io/twitter/follow/rajkbnp.svg?style=social)](https://twitter.com/rajkbnp)
 
-- Raj KB [Maintainer] [![Twitter Follow](https://img.shields.io/twitter/follow/rajkbnp.svg?style=social)](https://twitter.com/rajkbnp)
-- `{{this could be you}}` (see "Contribution" section)
+## Contributors
+
+![Contributors](https://contrib.rocks/image?repo=MagePsycho/magento2-product-discount-label)
+
+## To Contribute
+Any contribution to the development of `Magento 2 Product Discount Label` is highly welcome.  
+The best possibility to provide any code is to open a [pull request on GitHub](https://github.com/MagePsycho/magento2-product-discount-label/pulls).
 
 ## Need Support?
 If you encounter any problems or bugs, please create an issue on [GitHub](https://github.com/MagePsycho/magento2-product-discount-label/issues).
 
 Please [visit our store](https://www.magepsycho.com/extensions/magento-2.html) for more FREE / paid extensions OR [contact us](https://magepsycho.com/contact) for customization / development services.
-
-## Contribution
-Any contribution to the development of `Magento 2 Product Discount Label` is highly welcome.  
-The best possibility to provide any code is to open a [pull request on GitHub](https://github.com/MagePsycho/magento2-product-discount-label/pulls).
