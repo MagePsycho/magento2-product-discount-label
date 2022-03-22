@@ -78,7 +78,7 @@ php bin/magento setup:static-content:deploy
 
 ## Contributors
 
-![Contributors](https://contrib.rocks/image?repo=MagePsycho/magento2-product-discount-label)
+![Contributors](https://contrib.rocks/image?repo=magepsycho/magento2-product-discount-label)
 
 ## To Contribute
 Any contribution to the development of `Magento 2 Product Discount Label` is highly welcome.  
